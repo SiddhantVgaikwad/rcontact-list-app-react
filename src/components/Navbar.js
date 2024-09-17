@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div className="navbar-brand d-flex justify-content-start">
                 <img src={logoImage} alt="Logo" width="auto"  height="35" className='rounded-circle'/>
                 </div>
-                <Link to='/' className='navbar-brand text-xl font-weight-bold'> <span>📙</span> <u>CONTACT APP</u></Link>
+                <Link to='/' className='navbar-brand text-xl font-weight-bold'> <span>📙</span> <u>CONTACT LIST APP</u></Link>
                 <div className='text-end'>
                     <Link to='/add' className='btn btn-outline-dark text-white bg-success text-lg font-weight-bold border border-success rounded'> + Add New Contact</Link>
                 </div>
